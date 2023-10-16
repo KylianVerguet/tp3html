@@ -1,4 +1,15 @@
-footer{
+div.table{
+    position:relative;
+    border: 10px;
+    border-color: black;
+    
+
+}
+
+
+
+.bot{
+    border-color: black;
 position:absolute ;
 bottom: 0;
 

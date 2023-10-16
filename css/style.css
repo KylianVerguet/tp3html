@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    min-height: 100vh;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    
+}
+
+
+div.table{
+    position:relative;
+    border: 10px;
+    border-color: black;
+    
+
+}
+
+
+div.bg-light{
+border-color: black;
+position:absolute ;
+text-align: bottom;
+bottom: 0;
+
+}

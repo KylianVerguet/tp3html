@@ -5,24 +5,38 @@ body {
   background: linear-gradient(315deg, #ffffff, #d7e1ec);
   font-family: "Century Gothic", "Lato", sans-serif;
 }
-
-div.table {
+#banner{
+  margin-left:0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.table {
+  margin-top: 50px;
   position: relative;
   border: 10px;
   border-color: black;
+padding-left: 10%;
+padding-right: 10%;
+}
+table.img{
+  width: 100%;
+  height: 100%;
 }
 
 div.bg-light {
   border-color: black;
   position: absolute;
-  text-align: bottom;
+  text-align: center;
   bottom: 0;
 }
 
+
 .block {
   position: absolute;
-  width: 600px;
-  height: 200px;
+  width: 30%;
+  height: 15%;
   background: rgb(189, 168, 112);
   border-radius: 20px;
   align-items: center;
@@ -31,7 +45,7 @@ div.bg-light {
   text-align: center;
   justify-content: center;
   display: flex;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: bold;
   box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.63);
 }

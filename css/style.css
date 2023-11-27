@@ -34,9 +34,11 @@ div.bg-light {
 
 
 .block {
+  text-overflow: ellipsis;
+  overflow: hidden;
   position: absolute;
-  width: 30%;
-  height: 15%;
+  width: 40%;
+  height: 25%;
   background: rgb(189, 168, 112);
   border-radius: 20px;
   align-items: center;
